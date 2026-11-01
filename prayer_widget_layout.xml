@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp" android:background="#F1F5F9">
+<TextView android:id="@+id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="مختار احمد صابری" android:textSize="18sp" android:textStyle="bold" android:textColor="#123B32" android:gravity="center"/>
+<TextView android:id="@+id/tvCity" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="شہر: لاہور" android:textSize="12sp" android:textColor="#333333" android:gravity="center"/>
+<TextView android:id="@+id/tvCurrentTime" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="موجودہ وقت: --:--" android:textSize="13sp" android:textColor="#123B32" android:gravity="center"/>
+<TextView android:id="@+id/tvFajr" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="فجر: --:--" android:textSize="15sp" android:textColor="#222222"/>
+<TextView android:id="@+id/tvZuhr" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ظہر: --:--" android:textSize="15sp" android:textColor="#222222"/>
+<TextView android:id="@+id/tvAsr" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="عصر: --:--" android:textSize="15sp" android:textColor="#222222"/>
+<TextView android:id="@+id/tvMaghrib" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="مغرب: --:--" android:textSize="15sp" android:textColor="#222222"/>
+<TextView android:id="@+id/tvIsha" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="عشاء: --:--" android:textSize="15sp" android:textColor="#222222"/>
+<TextView android:id="@+id/tvNextPrayer" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="اگلی نماز: --" android:textSize="14sp" android:textStyle="bold" android:textColor="#087443"/>
+<TextView android:id="@+id/tvCountdown" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="باقی وقت: --" android:textSize="13sp" android:textColor="#087443"/>
+<TextView android:id="@+id/tvStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="اوقات تازہ کرنے کے لیے ایپ کھولیں" android:textSize="11sp" android:textColor="#555555"/>
+</LinearLayout>
